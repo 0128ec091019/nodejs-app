@@ -6,10 +6,10 @@ app.get('/', function (req, res) {
 });
 
 app.get('/will', function (req, res) {
-    res.send('{ "response": "Hello World" }');
+    res.send('{ "response": "Hello World-V1" }');
 });
 app.get('/ready', function (req, res) {
-    res.send('{ "response": " Great!, It works!" }');
+    res.send('{ "response": " Great!, It works V1!" }');
 });
 app.listen(process.env.PORT || 3000);
 module.exports = app;
